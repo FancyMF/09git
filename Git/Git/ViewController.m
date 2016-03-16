@@ -18,6 +18,8 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     NSLog(@"123");
+    UIButton * btn =[[UIButton alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
+    
 }
 
 - (void)didReceiveMemoryWarning {
