@@ -20,6 +20,8 @@
     NSLog(@"123");
     UIButton * btn =[[UIButton alloc]initWithFrame:CGRectMake(0, 0, 100, 100)];
     
+    NSLog(@"aaaaaa");
+    
 }
 
 - (void)didReceiveMemoryWarning {
