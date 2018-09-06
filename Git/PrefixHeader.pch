@@ -1,0 +1,39 @@
+//
+/*
+ 创建流程，将basekit，category，customes，Global，SDK，Utils文件夹拷贝放进去，pch创建并在build setting pch项写进去。
+ */
+//  PrefixHeader.pch
+//  test
+//
+//  Created by fancymf on 2018/8/19.
+//  Copyright © 2018年 fancymf. All rights reserved.
+//
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef DEBUG
+//# define NSLog(format, ...) NSLog((@"\n[文件名:%s]\n" "[函数名:%s]\n" "[行号:%d]\n" format), __FILE__, __FUNCTION__, __LINE__, ##__VA_ARGS__);
+# define NSLog(format, ...) NSLog((@"\n" format "[行号:%d]\n"), ##__VA_ARGS__, __LINE__);
+#else
+# define NSLog(...);
+#endif
+
+#define MyAppDelegate ((AppDelegate *)[UIApplication sharedApplication].delegate)
+
+#import "AppConst.h"
+#import "UIInitTool.h"
+#import "ToastTool.h"
+#import "UIView+Layout.h"
+
+#import "BaseViewFactory.h"
+#import "Utils.h"
+
+#import "MJExtension.h"
+
+#import "LoginGlobal.h"
+#import "AppDelegate.h"
+
+#endif /* PrefixHeader_pch */
