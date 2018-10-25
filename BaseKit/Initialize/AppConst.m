@@ -72,6 +72,10 @@ NSString *const kNumberAndCharacterlower = @"[0-9a-z_.@]";
 
 @implementation AppConst
 
+
+
+
+
 + (NSString *)displayName{
     return [[NSBundle mainBundle] objectForInfoDictionaryKey:@"CFBundleDisplayName"];
 }

@@ -147,6 +147,8 @@
 		E8B585F721402E5500C9103B /* NewBundle.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B5856E21402E5500C9103B /* NewBundle.m */; };
 		E8B585F821402E5500C9103B /* WeakScriptMessageDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B5856F21402E5500C9103B /* WeakScriptMessageDelegate.m */; };
 		E8B585F921402E5500C9103B /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = E8B5857021402E5500C9103B /* Utils.m */; };
+		E8C67AF52181AC0700F64AC3 /* UIColor+Tweak.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C67AF32181AC0700F64AC3 /* UIColor+Tweak.m */; };
+		E8C67AF62181AC0700F64AC3 /* PhotoTweakView.m in Sources */ = {isa = PBXBuildFile; fileRef = E8C67AF42181AC0700F64AC3 /* PhotoTweakView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -457,6 +459,10 @@
 		E8B5857121402E5500C9103B /* NewBundle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewBundle.h; sourceTree = "<group>"; };
 		E8B5857221402E5500C9103B /* GetImageHepler.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GetImageHepler.h; sourceTree = "<group>"; };
 		E8B585FB2140338500C9103B /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		E8C67AF12181AC0700F64AC3 /* UIColor+Tweak.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Tweak.h"; sourceTree = "<group>"; };
+		E8C67AF22181AC0700F64AC3 /* PhotoTweakView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PhotoTweakView.h; sourceTree = "<group>"; };
+		E8C67AF32181AC0700F64AC3 /* UIColor+Tweak.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Tweak.m"; sourceTree = "<group>"; };
+		E8C67AF42181AC0700F64AC3 /* PhotoTweakView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PhotoTweakView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -559,6 +565,7 @@
 		E8B5842B21402E5400C9103B /* Customes */ = {
 			isa = PBXGroup;
 			children = (
+				E8C67AF02181AC0700F64AC3 /* crop */,
 				E8B5842C21402E5400C9103B /* ScheduleView.m */,
 				E8B5842D21402E5400C9103B /* DrawView.m */,
 				E8B5842E21402E5400C9103B /* DataPickerView.m */,
@@ -1197,6 +1204,17 @@
 			path = ../Utils;
 			sourceTree = "<group>";
 		};
+		E8C67AF02181AC0700F64AC3 /* crop */ = {
+			isa = PBXGroup;
+			children = (
+				E8C67AF12181AC0700F64AC3 /* UIColor+Tweak.h */,
+				E8C67AF32181AC0700F64AC3 /* UIColor+Tweak.m */,
+				E8C67AF22181AC0700F64AC3 /* PhotoTweakView.h */,
+				E8C67AF42181AC0700F64AC3 /* PhotoTweakView.m */,
+			);
+			path = crop;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1372,6 +1390,7 @@
 				E8B585EF21402E5500C9103B /* UICKeyChainStore.m in Sources */,
 				E8B585F821402E5500C9103B /* WeakScriptMessageDelegate.m in Sources */,
 				E8B5857321402E5500C9103B /* ScheduleView.m in Sources */,
+				E8C67AF52181AC0700F64AC3 /* UIColor+Tweak.m in Sources */,
 				E8B585EE21402E5500C9103B /* UIButton+WebCache.m in Sources */,
 				E8B5857F21402E5500C9103B /* GradientLayerView.m in Sources */,
 				E8B585D321402E5500C9103B /* UIActivityIndicatorView+AFNetworking.m in Sources */,
@@ -1408,6 +1427,7 @@
 				E8B585D121402E5500C9103B /* UIImageView+AFNetworking.m in Sources */,
 				E8B5857C21402E5500C9103B /* MoLocationManager.m in Sources */,
 				E8B585C221402E5500C9103B /* IQTitleBarButtonItem.m in Sources */,
+				E8C67AF62181AC0700F64AC3 /* PhotoTweakView.m in Sources */,
 				E8B585B621402E5500C9103B /* NSArray+MASAdditions.m in Sources */,
 				E8B585BD21402E5500C9103B /* SVProgressHUD.m in Sources */,
 				E8B5857A21402E5500C9103B /* SignNameView.m in Sources */,
